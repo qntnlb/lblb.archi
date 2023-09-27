@@ -5,15 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <title> LBLB + Quentin Le Berre Architecte</title>
+    <title>LBLB + Quentin Le Berre Architecte</title>
     <style>
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block; /* Supprimer l'espace réservé pour le texte sous l'image */
-            margin: 0 auto; /* Centrer horizontalement l'image */
-        }
-        
         body {
             background-color: #fad7d7;
             font-family: Helvetica, Maiola, Arial, sans-serif;
@@ -21,73 +14,36 @@
             line-height: 1.4;
             margin: 0;
             padding: 0;
+            display: flex; /* Utilisation de flexbox pour centrer le contenu */
+            align-items: center; /* Centrer verticalement */
+            justify-content: center; /* Centrer horizontalement */
+            min-height: 100vh; /* Assurer que le contenu s'étend sur toute la hauteur de la vue */
         }
 
-        h1 {
-            color: ;
-            font-size: 35px;
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        h1, p, a, h2 {
+            color: #000; /* Ajoutez la couleur de texte souhaitée ici */
+            font-size: 25px; /* Modifiez la taille de la police si nécessaire */
             font-weight: bold;
-            margin: 26px;
+            margin: 10px; /* Réduit la marge pour les autres éléments */
             text-align: justify;
-            letter-spacing: px;
-        }
-
-        p {
-            color: ;
-            font-size: 25px;
-            font-weight: bold;
-            margin: 26px;
-            text-align: justify;
-            letter-spacing: px;
-        }
-
-        a {
-            color: #f48787;
-            text-decoration: none;
-            font-size: 25px;
-            font-family: Helvetica, Arial, sans-serif;
-            font-weight: bold;
-            letter-spacing: px;
-            text-align: left;
-            margin: 26px;
-        }
-
-        h2 {
-            color: #fad7d7;
-            text-decoration: none;
-            font-size: 1px;
-            font-family: Helvetica, Arial, sans-serif;
-            font-weight: bold;
-            text-align: left;
-            margin: px;
+            letter-spacing: 1px;
         }
 
         .container {
             max-width: 960px;
-            /* Définir une largeur maximale pour le contenu */
             margin: 0 auto;
-            /* Centrer le contenu */
             padding: 20px;
-            /* Ajouter un remplissage */
         }
 
         @media screen and (max-width: 600px) {
             .container {
                 padding: 10px;
-            }
-            h1 {
-                font-size: 20px;
-                margin: 10px;
-                •
-            }
-            p {
-                font-size: 25px;
-                margin: 10px;
-            }
-            a {
-                font-size: 15px;
-                margin: 10px;
-                
             }
         }
     </style>
@@ -95,7 +51,7 @@
 
 <body>
     <div class="container">
-        <img src="test.jpg" alt="portrait" style="margin-left: 250px;">
+        <img src="test.jpg" alt="portrait">
         <h1> &gt; LBLB est un atelier d'architecture qui s'occupe de conception, de transformation et de rénovation de bâtiments au moyen de projets construits et de recherches appliquées.
             <h1> &gt; Notre approche professionnelle se manifeste également à travers des reportages photographiques, des ateliers de conseil ainsi que des investigations concrètes sur le territoire breton.
              <h1> &gt; Architecte diplômé de l'École Nationale Supérieure d'Architecture de Versailles, Quentin Le Berre porte sa recherche sur les intersections entre objets humains, géographie et architecture.</h1>
